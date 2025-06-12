@@ -1,0 +1,78 @@
+html{
+  
+    background-color: antiquewhite;
+}
+
+body {
+    display: flex;
+    justify-content: center;  
+    align-items: center;  
+    padding: 20vh;  
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: center;   
+    border-radius: 2vh;
+    max-width:25rem;
+    box-shadow: 2px 2px 2px black;
+} 
+
+.imagen{
+    width:25rem;
+    justify-content: center;
+    justify-items: center;
+    border-radius: 20px 20px 0 0;
+}
+
+.info{
+    margin: 1vh 2vh;
+    box-shadow: none;
+
+}
+.main-tecnologia{
+    width: 7.5rem;
+    background-color: orangered;
+    border-radius: 90vh;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.tecnologia{
+    font-size: 1rem;
+    margin: 0 0.8rem;
+}
+.tittle{
+     font-size: 1.5rem;
+}
+
+.spam{
+    font-size: 1.3rem;
+    margin: 0;
+}
+.tittle{
+    margin: 0;
+    padding: 0;
+}
+h3{
+    margin: .2rem;
+}
+p{
+    margin: .2rem;
+}
+.perfil{
+    display: flex;
+    margin: 1rem 0;
+}
+.image-perfil{
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 100%;
+    
+}
+/*vw =tamamaño de la vista por lo ancho */
+/*vh = tamaño de la vista por lo alto*/
