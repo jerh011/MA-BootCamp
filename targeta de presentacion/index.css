@@ -74,5 +74,14 @@ p{
     border-radius: 100%;
     
 }
+.perfil-text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+}
+.perfil-text p{
+    margin: 0;
+    font-weight: bold;
+}
 /*vw =tamamaño de la vista por lo ancho */
 /*vh = tamaño de la vista por lo alto*/
